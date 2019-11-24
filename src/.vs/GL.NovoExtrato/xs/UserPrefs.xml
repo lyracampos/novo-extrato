@@ -1,0 +1,97 @@
+﻿<Properties StartupConfiguration="{75136BC6-C9ED-4AF3-9100-018BC4FB53D1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="services/GL.NovoExtrato.Lancamento/appsettings.json">
+    <Files>
+      <File FileName="services/GL.NovoExtrato.Consulta/appsettings.json" Line="1" Column="1" />
+      <File FileName="services/GL.NovoExtrato.Lancamento/appsettings.json" Line="9" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GL.NovoExtrato" expanded="True">
+            <Node name="services" expanded="True">
+              <Node name="GL.NovoExtrato.Consulta" expanded="True" />
+              <Node name="GL.NovoExtrato.Lancamento" expanded="True">
+                <Node name="appsettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="GL.NovoExtrato" expanded="True">
+            <Node name="tests" expanded="True">
+              <Node name="GL.NovoExtrato.Consulta.Tests" expanded="True">
+                <Node name="GL" expanded="True">
+                  <Node name="NovoExtrato" expanded="True" selected="True">
+                    <Node name="Consulta" expanded="True">
+                      <Node name="Tests" expanded="True">
+                        <Node name="IntegrationTests" expanded="True">
+                          <Node name="ExtratoControllerTests" expanded="True" />
+                        </Node>
+                        <Node name="UnitTests" expanded="True">
+                          <Node name="ExtratoControllerTests" expanded="True" />
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="GL.NovoExtrato.Lancamento.Tests" expanded="True">
+                <Node name="GL" expanded="True">
+                  <Node name="NovoExtrato" expanded="True">
+                    <Node name="Lancamento" expanded="True">
+                      <Node name="Tests" expanded="True">
+                        <Node name="UnitTests" expanded="True">
+                          <Node name="Commands" expanded="True">
+                            <Node name="CriarClienteHandlerTests" expanded="True" />
+                            <Node name="CriarLancamentoHandlerTests" expanded="True" />
+                          </Node>
+                          <Node name="Controllers" expanded="True">
+                            <Node name="ContaCorrenteControllerTests" expanded="True" />
+                          </Node>
+                          <Node name="Services" expanded="True">
+                            <Node name="ClienteServicoTests" expanded="True" />
+                          </Node>
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.client.GL.NovoExtrato.Site PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>services/GL.NovoExtrato.Shared/GL.NovoExtrato.Consulta/GL.NovoExtrato.Consulta.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/Commands/CriarLancamentoHandler.cs" relfile="services/GL.NovoExtrato.Lancamento/Commands/CriarLancamentoHandler.cs" line="32" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/Commands/CriarClienteHandler.cs" relfile="services/GL.NovoExtrato.Lancamento/Commands/CriarClienteHandler.cs" line="28" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/client/GL.NovoExtrato.Site/Controllers/ContaCorrenteController.cs" relfile="client/GL.NovoExtrato.Site/Controllers/ContaCorrenteController.cs" line="61" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" line="40" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" line="91" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Commands/CriarLancamentoHandlerTests.cs" line="109" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="53" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="68" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="82" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="99" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="116" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="33" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="125" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Controllers/ContaCorrenteControllerTests.cs" line="60" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Services/ClienteServicoTests.cs" relfile="tests/GL.NovoExtrato.Lancamento.Tests/UnitTests/Services/ClienteServicoTests.cs" line="38" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Consulta.Tests/IntegrationTests/ExtratoControllerTests.cs" relfile="tests/GL.NovoExtrato.Consulta.Tests/IntegrationTests/ExtratoControllerTests.cs" line="40" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/tests/GL.NovoExtrato.Consulta.Tests/IntegrationTests/ExtratoControllerTests.cs" relfile="tests/GL.NovoExtrato.Consulta.Tests/IntegrationTests/ExtratoControllerTests.cs" line="66" column="1" />
+      <Breakpoint file="/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Consulta/Controllers/ExtratoController.cs" relfile="services/GL.NovoExtrato.Consulta/Controllers/ExtratoController.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

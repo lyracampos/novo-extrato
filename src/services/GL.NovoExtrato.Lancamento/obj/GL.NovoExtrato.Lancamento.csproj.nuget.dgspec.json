@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/GL.NovoExtrato.Lancamento.csproj": {}
+  },
+  "projects": {
+    "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/GL.NovoExtrato.Lancamento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/GL.NovoExtrato.Lancamento.csproj",
+        "projectName": "GL.NovoExtrato.Lancamento",
+        "projectPath": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/GL.NovoExtrato.Lancamento.csproj",
+        "packagesPath": "/Users/guilhermelyracampos/.nuget/packages/",
+        "outputPath": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Lancamento/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/guilhermelyracampos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/GL.NovoExtrato.Shared.csproj": {
+                "projectPath": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/GL.NovoExtrato.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/GL.NovoExtrato.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/GL.NovoExtrato.Shared.csproj",
+        "projectName": "GL.NovoExtrato.Shared",
+        "projectPath": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/GL.NovoExtrato.Shared.csproj",
+        "packagesPath": "/Users/guilhermelyracampos/.nuget/packages/",
+        "outputPath": "/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/guilhermelyracampos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

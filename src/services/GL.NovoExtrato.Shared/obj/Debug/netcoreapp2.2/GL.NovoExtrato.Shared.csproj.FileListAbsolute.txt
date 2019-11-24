@@ -1,0 +1,8 @@
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/bin/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.deps.json
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/bin/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.dll
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/bin/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.pdb
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.csprojAssemblyReference.cache
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.AssemblyInfoInputs.cache
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.AssemblyInfo.cs
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.dll
+/Users/guilhermelyracampos/Documents/profissional/projetos/testes/novo-extrato/src/services/GL.NovoExtrato.Shared/obj/Debug/netcoreapp2.2/GL.NovoExtrato.Shared.pdb

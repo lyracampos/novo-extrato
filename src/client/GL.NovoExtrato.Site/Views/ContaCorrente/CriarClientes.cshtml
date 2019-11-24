@@ -1,0 +1,23 @@
+﻿@model GL.NovoExtrato.Site.Models.CriarClientesModel
+<form asp-action="criarclientes" method="post">
+    <div class="text-center">
+        <h3 class="display-4">Criar clientes</h3>
+        <p>Informe abaixo a quantidade de clientes que deseja criar.</p>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-4 mx-auto">
+            <div class="form-group">
+                <input type="text" class="form-control text-center" placeholder="Quantidade" asp-for="@Model.Quantidade">
+                <span asp-validation-for="@Model.Quantidade" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 mx-auto">
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary col-12"> Iniciar</button>
+            </div>
+        </div>
+    </div>
+</form>

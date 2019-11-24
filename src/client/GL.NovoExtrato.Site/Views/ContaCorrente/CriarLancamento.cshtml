@@ -1,0 +1,60 @@
+﻿@model GL.NovoExtrato.Site.Models.CriarLancamentoModel
+@{
+    ViewData["Title"] = "Novo lançamentosss";
+}
+<form asp-action="criarlancamento" method="post">
+    <div class="container">
+         <div class="text-center">
+            <h3 class="display-4">Criar novo lançamento entre contas</h3>
+            <p>Informe abaixo a quantidade de clientes que deseja criar.</p>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <div class="form-group">
+                    <label for="contaOrigem">Conta origem</label>
+                    <input type="text" class="form-control" style="text-transform:uppercase;" id="contaOrigem" asp-for="@Model.NumeroContaOrigem" placeholder="Conta origem"/>
+                    <span asp-validation-for="@Model.NumeroContaOrigem" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <div class="form-group">
+                    <label for="contaDestino">Conta Destino</label>
+                    <input type="text" class="form-control" style="text-transform:uppercase;" id="contaDestino" asp-for="@Model.NumeroContaDestino" placeholder="Conta destino"/>
+                    <span asp-validation-for="@Model.NumeroContaDestino" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <div class="form-group">
+                    <label for="tipo">Tipo de lançamento</label>
+                    <select class="form-control" asp-for="@Model.Tipo">
+                        <option value="1">Transferência</option>
+                        <option value="2">TED</option>
+                        <option value="4">DOC</option>
+                    </select>
+                    <span asp-validation-for="@Model.Tipo" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <div class="form-group">
+                    <label for="contaOrigem">Valor</label>
+                    <input type="text" class="form-control" id="valor" asp-for="@Model.Valor" placeholder="Valor"/>
+                    <span asp-validation-for="@Model.Valor" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+             <div class="col-4 mx-auto">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary col-12"> Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

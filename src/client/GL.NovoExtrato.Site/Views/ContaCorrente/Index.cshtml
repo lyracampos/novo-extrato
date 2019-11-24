@@ -1,0 +1,42 @@
+﻿@model GL.NovoExtrato.Site.Models.ContaCorrenteListaModel
+@{
+    ViewData["Title"] = "Página inicial";
+}
+    @if (Model.TemContaCorrente)
+    {
+        <div class="row">
+            <div class="col-12">
+                <a class="btn btn-success" asp-action="criarclientes">Novos clientes</a>
+                <a class="btn btn-success" asp-action="criarlancamento">Novo lançamento</a>
+            </div>
+        </div>
+        <br/>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Cliente</th>
+              <th scope="col">Conta</th>
+              <th scope="col">Saldo</th>
+              <th scope="col">Extrato</th>
+            </tr>
+          </thead>
+          <tbody>
+              @foreach (var conta in Model.ContasCorrentes)
+              {
+                <tr>
+                  <td>@conta.ClienteNome</td>
+                  <td>@conta.NumeroDaConta</td>
+                  <td>@conta.SaldoEmConta</td>
+                  <td><a class="btn-sm btn-primary" asp-action="extrato" asp-controller="consulta" asp-route-id="@conta.ClienteId">Ver extrato</a></td>
+                </tr>
+              }
+          </tbody>
+        </table>
+    }
+    else
+    {
+       <div class="text-center">
+            <h1 class="display-4">Bem-vindo ao Novo Extrato</h1>
+            <p>Clique <a asp-controller="contacorrente" asp-action="criarclientes">aqui</a> para criar os clientes e iniciar os testes.</p>
+        </div>
+    }

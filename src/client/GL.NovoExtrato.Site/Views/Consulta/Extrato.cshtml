@@ -1,0 +1,35 @@
+﻿@model GL.NovoExtrato.Site.Models.ExtratoListaModel
+@{
+    ViewData["Title"] = "Extrato inicial";
+}
+
+<h3>Extrato da conta</h3>
+ <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Tipo</th>
+              <th scope="col">Transação</th>
+              <th scope="col">Valor</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Conta Origem</th>
+              <th scope="col">Conta Destino</th>
+              <th scope="col">Saldo</th>
+            </tr>
+          </thead>
+          <tbody>
+              @foreach (var extrato in Model.Extratos)
+              {
+                <tr>
+                  <td>@extrato.CriadoEm</td>
+                  <td>@extrato.TipoDescricao</td>
+                  <td>@extrato.TransacaoTipoDescricao</td>
+                  <td>@extrato.ValorTransacao</td>
+                  <td>@extrato.Descricao</td>
+                  <td>@extrato.ContaOrigem</td>
+                  <td>@extrato.ContaDestino</td>
+                  <td>@extrato.Saldo</td>
+                </tr>
+              }
+          </tbody>
+        </table>
